@@ -1,1 +1,1 @@
-# AdMob publisher ID will be added here
+google.com, pub-7192090101020651, DIRECT, f08c47fec0942fa0
