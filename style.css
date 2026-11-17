@@ -506,3 +506,10 @@ details > div p,details > div li{color:#2d2b28}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
 }
+
+/* credits tables */
+.table-wrap{overflow-x:auto;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);background:#fff;margin:14px 0 26px}
+.table-wrap table{width:100%;border-collapse:collapse;font-size:.92rem}
+.table-wrap th,.table-wrap td{padding:9px 12px;text-align:left;border-bottom:2px solid #eee3cf;vertical-align:top}
+.table-wrap th{background:var(--ink);color:#fff;font-family:"Bungee","Rubik",sans-serif;font-weight:400;letter-spacing:.5px;font-size:.8rem}
+.table-wrap tr:last-child td{border-bottom:0}
